@@ -1,0 +1,22 @@
+{
+  "name": "suchdevelopment.com",
+  "version": "0.1.0",
+  "description": "Such Development Website",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Romdeau/suchdevelopment.com.git"
+  },
+  "author": "Thomas Taege",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Romdeau/suchdevelopment.com/issues"
+  },
+  "homepage": "https://github.com/Romdeau/suchdevelopment.com",
+  "dependencies": {
+    "express": "^4.13.1"
+  }
+}
