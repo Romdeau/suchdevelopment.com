@@ -1,0 +1,38 @@
+html, body {
+  height: 100%;
+}
+
+#wrap {
+  min-height: 100%;
+}
+
+#main {
+  overflow:auto;
+  padding-top:54px;
+  padding-bottom:300px; /* this needs to be bigger than footer height*/
+}
+
+.sd-header {
+  background-image: url("/assets/img/WebsiteHeader.png");
+  height: 350px;
+}
+
+.sd-main {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.sd-footer {
+  position: relative;
+  margin-top: -300px; /* negative value of footer height */
+  height: 300px;
+  clear:both;
+  padding-top:20px;
+  background-image: url("/assets/img/WebsiteFooter.png");
+  color: rgba(255,255,255,1);
+}
+
+.jumbotron {
+  background-color: #7e57c2;
+  color: rgba(255,255,255,.5);
+}
