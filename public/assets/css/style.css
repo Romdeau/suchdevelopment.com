@@ -17,6 +17,10 @@ html, body {
   height: 350px;
 }
 
+.sd-heading {
+  color: #ffffff;
+}
+
 .sd-main {
   padding-top: 50px;
   padding-bottom: 50px;

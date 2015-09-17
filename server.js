@@ -8,6 +8,11 @@ var path 	   = require('path');
 // used for requests that our frontend will make
 app.use(express.static(__dirname + '/public'));
 
+//get resume page
+app.get('/resume', function(req, res) {
+	res.sendFile(path.join(__dirname + '/public/app/views/resume.html'));
+});
+
 //catchall to pass to angular app===============
 app.get('*', function(req, res) {
 	res.sendFile(path.join(__dirname + '/public/app/views/index.html'));
